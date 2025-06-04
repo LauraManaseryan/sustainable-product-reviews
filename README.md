@@ -84,3 +84,137 @@
 
 </body>
 </html>
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5fdf5;
+  color: #2e4d2e;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(to right, #46c67f, #34aadc);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e65c00;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #216e21;
+  margin-bottom: 10px;
+}
+
+.comparison {
+  padding: 40px 20px;
+  background-color: #e9f5e9;
+  text-align: center;
+}
+
+.comparison h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #cdeac0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #b2e4b2;
+}
+
+.explore {
+  background-color: #f4fff4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.explore-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.explore-card {
+  background-color: #fff;
+  width: 280px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.explore-card h3 {
+  color: #2c7a2c;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #216e21;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
